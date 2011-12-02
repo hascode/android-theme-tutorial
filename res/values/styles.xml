@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="CustomTheme" parent="@android:style/Theme.Black">
+        <item name="android:listViewStyle">@style/CustomListView</item>
+        <item name="android:textViewStyle">@style/CustomListViewItem</item>
+        
+    </style>
+    <style name="CustomListView" parent="@android:style/Widget.ListView">
+        <item name="android:background">#2F3F66</item>
+        <item name="android:fastScrollEnabled">true</item>
+    </style>
+    <style name="CustomListViewItem" parent="@android:style/Widget.TextView">
+        <item name="android:typeface">monospace</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowRadius">2.</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">4</item>
+    </style>
+</resources>
